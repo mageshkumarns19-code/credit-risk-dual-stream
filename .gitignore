@@ -1,0 +1,28 @@
+# Datasets (download separately -- see README)
+*.csv
+!requirements.txt
+
+# Generated pipeline outputs (all reproducible by running the scripts)
+processed/
+checkpoints/
+graphs_output/
+tables_output/
+explainability_output/
+results_log.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+venv/
+.venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
